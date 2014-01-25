@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.4">
+  <sounds />
+  <images>
+    <image name="WizzyTheWizard">
+      <file name="WizzyTheWizard.png" size="458" />
+    </image>
+    <image name="1-left">
+      <file name="1-left.png" size="472" />
+    </image>
+    <image name="2">
+      <file name="2.png" size="482" />
+    </image>
+    <image name="2-left">
+      <file name="2-left.png" size="487" />
+    </image>
+    <image name="3">
+      <file name="3.png" size="497" />
+    </image>
+    <image name="3-left">
+      <file name="3-left.png" size="491" />
+    </image>
+    <image name="4">
+      <file name="4.png" size="482" />
+    </image>
+    <image name="4-left">
+      <file name="4-left.png" size="484" />
+    </image>
+    <image name="5">
+      <file name="5.png" size="479" />
+    </image>
+    <image name="5-left">
+      <file name="5-left.png" size="486" />
+    </image>
+    <image name="6">
+      <file name="6.png" size="487" />
+    </image>
+    <image name="6-left">
+      <file name="6-left.png" size="486" />
+    </image>
+    <image name="7">
+      <file name="7.png" size="479" />
+    </image>
+    <image name="7-left">
+      <file name="7-left.png" size="486" />
+    </image>
+    <image name="8">
+      <file name="8.png" size="483" />
+    </image>
+    <image name="8-left">
+      <file name="8-left.png" size="484" />
+    </image>
+    <image name="1">
+      <file name="1.png" size="462" />
+    </image>
+    <image name="Platform-Stone-1(20x20)">
+      <file name="Platform-Stone-1(20x20).png" size="443" />
+    </image>
+    <image name="Cloud-1">
+      <file name="Cloud-1.png" size="775" />
+    </image>
+    <image name="SkyClear-1">
+      <file name="SkyClear-1.png" size="259" />
+    </image>
+    <image name="Cloud-2">
+      <file name="Cloud-2.png" size="834" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
