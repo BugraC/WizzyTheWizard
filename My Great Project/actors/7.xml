@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id461237" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id883149" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">Cloud-1</text>
+    <text id="name">Cloud-2</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">218</real>
-      <real id="height">42</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,12 +18,12 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Cloud-1</image>
+    <image id="image">Cloud-2</image>
     <text id="tags">BackGround</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id826800" class="ChangeAttributeAction" enabled="true">
+    <behavior id="id403527" class="ChangeAttributeAction" enabled="true">
       <attributes>
         <text id="name">Change Attribute</text>
         <text id="bundleName">ChangeAttribute.behavior</text>
@@ -35,7 +35,7 @@
         </text>
       </attributes>
     </behavior>
-    <behavior id="id771250" class="InterpolateBehavior" enabled="true">
+    <behavior id="id121365" class="InterpolateBehavior" enabled="true">
       <attributes>
         <text id="name">Interpolate</text>
         <text id="bundleName">Interpolate.behavior</text>
@@ -46,7 +46,7 @@
         <index id="easing">0</index>
       </attributes>
     </behavior>
-    <behavior id="id874890" class="TimerBehavior" enabled="false">
+    <behavior id="id768307" class="TimerBehavior" enabled="false">
       <attributes>
         <text id="name">Timer</text>
         <text id="bundleName">Timer.behavior</text>
@@ -59,14 +59,14 @@
         <boolean id="runToCompletion">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id135888" class="RuleBehavior" enabled="true">
+        <behavior id="id896264" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Rule</text>
             <text id="bundleName">Rule.behavior</text>
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id280904" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+            <condition id="id832999" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
               <attributes>
                 <index id="conditionType">1</index>
                 <text id="subjectAttribute">self.attributes.color.alpha</text>
@@ -81,7 +81,7 @@
             </condition>
           </conditions>
           <behaviors>
-            <behavior id="id492613" class="InterpolateBehavior" enabled="true">
+            <behavior id="id537558" class="InterpolateBehavior" enabled="true">
               <attributes>
                 <text id="name">Interpolate</text>
                 <text id="bundleName">Interpolate.behavior</text>
@@ -102,7 +102,7 @@
             </behavior>
           </behaviors>
           <elseBehaviors>
-            <behavior id="id696872" class="InterpolateBehavior" enabled="true">
+            <behavior id="id861869" class="InterpolateBehavior" enabled="true">
               <attributes>
                 <text id="name">Interpolate</text>
                 <text id="bundleName">Interpolate.behavior</text>
@@ -121,14 +121,14 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id196830" class="RuleBehavior" enabled="true">
+    <behavior id="id876687" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id624612" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+        <condition id="id973096" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">self.attributes.position.x</text>
@@ -148,7 +148,7 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id768649" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id474474" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
