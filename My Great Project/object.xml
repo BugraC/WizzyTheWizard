@@ -13,6 +13,7 @@
     <actor id="id461237" />
     <actor id="id196695" />
     <actor id="id883149" />
+    <actor id="id829752" />
   </prototypes>
   <plugins />
   <scenes>
@@ -25,7 +26,7 @@
       <real id="width">480</real>
       <real id="height">320</real>
     </size>
-    <text id="actorTags">All	Blocks	MainCharacter	BackGround</text>
+    <text id="actorTags">All	Blocks	MainCharacter	BackGround	Gizmos</text>
     <text id="id455873" name="Block" />
     <boolean id="id603192" name="JumpState">false</boolean>
     <real id="id522830" name="CharacterPositionY">0</real>

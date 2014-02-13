@@ -65,6 +65,9 @@
     <image name="Cloud-2">
       <file name="Cloud-2.png" size="834" />
     </image>
+    <image name="Cloud-3">
+      <file name="Cloud-3.png" size="862" />
+    </image>
   </images>
   <behaviors />
 </assets>

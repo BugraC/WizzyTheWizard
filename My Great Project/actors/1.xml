@@ -38,6 +38,14 @@
         <real id="acceleration">300</real>
       </attributes>
     </behavior>
+    <behavior id="id556053" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id603192</text>
+        <text id="RHS">false</text>
+      </attributes>
+    </behavior>
     <behavior id="id784664" class="ChangeAttributeAction" enabled="true">
       <attributes>
         <text id="name">Change Attribute</text>
@@ -197,6 +205,18 @@
                   <text id="prototypeKey" />
                   <text id="actorTag">Blocks</text>
                   <real id="mode">1</real>
+                </attributes>
+              </predicate>
+            </condition>
+            <condition id="id601978" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id603192</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="boolean">
+                <attributes>
+                  <index id="RHS">0</index>
                 </attributes>
               </predicate>
             </condition>
@@ -381,7 +401,7 @@
           <predicate type="number">
             <attributes>
               <text id="operator">&lt;</text>
-              <real id="RHS">0</real>
+              <real id="RHS">200</real>
             </attributes>
           </predicate>
         </condition>

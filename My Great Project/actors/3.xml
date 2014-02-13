@@ -19,7 +19,7 @@
       <real id="alpha">0</real>
     </color>
     <image id="image" />
-    <text id="tags">Blocks</text>
+    <text id="tags">Gizmos</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
